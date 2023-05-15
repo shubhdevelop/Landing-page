@@ -7,7 +7,7 @@
 
 nav 
 {
-width: 100vw;
+
 box-sizing: border-box;
 max-height: 100px;
 display: flex;
@@ -23,44 +23,43 @@ nav img{
 nav ul{
     display: flex;
     list-style: none;
- 
     gap:30px;
+    align-items: center;
+    justify-content: center;
 
 }
 
-nav ul li {
+/* nav ul li {
     justify-self: end;
     
-}
+} */
 
 a{
     text-decoration: none;
 }
 
 .Hero {
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50PX;
+    gap: 90PX;
     padding: 20px;
     background-color: #1F2937;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     
 }
 
 .Hero img{
-    width: 350px;
-    height: auto;
+    width: 650px;
    
 }
 .hero-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    GAP: 20PX;
-    padding: 32px;
+    gap: 20px;
     height: 300px;
-    width: 350PX;
+    width: 500PX;
 
 }
 
@@ -72,7 +71,7 @@ a{
 }
 
 .Hero p{
-    font-size: 16px;
+    font-size: 24px;
     color: #e5e7eb;
 }
 
@@ -88,13 +87,18 @@ a{
 
 
 .gallery{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    
     text-align: center;
     padding:36px;
 }
 
 .gallery h3{
-    padding-bottom: 36px;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .items{
@@ -102,16 +106,15 @@ a{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
-    gap: 36px;
+    /* gap: 36px; */
 }
 
 .item{
+    align-self: flex-end;
     display: flex;
     flex-flow: column ;
     justify-content: center;
     height: 380px;
-   
-    text-overflow: center;
     align-items: center;
     gap: 10px;
 }
@@ -121,8 +124,6 @@ a{
     border-radius: 10px;
 
     border: .5px rgb(165, 165, 165) double;
-    
-    background-color: #f9f9f9;
     width: 300px;
     height: 300px;
     
@@ -130,4 +131,32 @@ a{
 
 .img-holder p{
     max-width: inherit;
+}
+
+
+.quote{
+    padding: 100px 25%;
+    width:fit-content;
+    gap: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote q{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.quote p{       
+    font-size: 24px;
+    font-style: italic;
+    align-self: flex-end;
+    color: rgb(51, 50, 50);
 }
