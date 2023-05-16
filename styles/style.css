@@ -136,7 +136,6 @@ a{
 
 .quote{
     padding: 100px 25%;
-    width:fit-content;
     gap: 20px;
     flex: 1;
     display: flex;
@@ -159,4 +158,41 @@ a{
     font-style: italic;
     align-self: flex-end;
     color: rgb(51, 50, 50);
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    padding: 35px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.call-to-action button {
+    background-color: #3882f6;
+    padding: 10 32;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.call-to-action h5  {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.call-to-action p{
+    color: white;
 }
