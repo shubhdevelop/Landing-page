@@ -5,6 +5,13 @@
     margin: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 nav 
 {
 
@@ -34,8 +41,9 @@ nav ul{
     
 } */
 
-a{
+nav a {
     text-decoration: none;
+    color: #1F2937;
 }
 
 .Hero {
@@ -106,7 +114,7 @@ a{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
-    /* gap: 36px; */
+     gap: 36px; 
 }
 
 .item{
@@ -115,17 +123,20 @@ a{
     flex-flow: column ;
     justify-content: center;
     height: 380px;
+    width: min-content;
     align-items: center;
-    gap: 10px;
+    flex: 1;
+    gap: 15px;
+   
 }
 
 .img-holder{
 
     border-radius: 10px;
 
-    border: .5px rgb(165, 165, 165) double;
-    width: 300px;
-    height: 300px;
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
     
 }
 
@@ -194,5 +205,12 @@ a{
 }
 
 .call-to-action p{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
     color: white;
 }
