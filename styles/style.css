@@ -110,11 +110,10 @@ nav a {
 }
 
 .items{
-
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
-     gap: 36px; 
+    justify-content: center;
+    gap: 50px;
 }
 
 .item{
@@ -123,25 +122,17 @@ nav a {
     flex-flow: column ;
     justify-content: center;
     height: 380px;
-    width: min-content;
     align-items: center;
-    flex: 1;
     gap: 15px;
    
 }
 
 .img-holder{
-
     border-radius: 10px;
-
     border: 3px solid #3882f6;
     width: 200px;
     height: 200px;
     
-}
-
-.img-holder p{
-    max-width: inherit;
 }
 
 
