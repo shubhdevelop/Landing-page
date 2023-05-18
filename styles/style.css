@@ -134,7 +134,10 @@ nav a {
     height: 200px;
     
 }
-
+.img-holder img {
+    height: 100%;
+    width: 100%;
+}
 
 .quote{
     padding: 100px 25%;
@@ -195,7 +198,7 @@ nav a {
     color: white;
 }
 
-.call-to-action a{
+.call-to-action a , p{
     text-decoration: none;
     color: white;
 }
